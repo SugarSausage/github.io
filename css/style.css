@@ -1,0 +1,195 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.container {
+    max-width: 950px;
+    margin: auto;
+}
+
+section .container {
+    padding: 50px 0;
+}
+
+section .section-title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.navigation {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #828282;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #828282;
+    font-weight: bold;
+}
+
+.navigation li a.active {
+    color: #000;
+}
+
+.main-teaser {
+    padding-bottom: 50px;
+}
+
+.main-teaser-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 30px;
+}
+
+.main-teaser-title h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.main-teaser-title .age {
+    font-weight: bold;
+}
+
+.language {
+    font-weight: bold;
+    transform: rotate(-90deg);
+    margin-bottom: 23px;
+    margin-right: -23px;
+}
+
+.language .language-button {
+    background: none;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #828282;
+
+
+}
+
+.language .language-button.active {
+    color: #000;
+}
+
+.about-me {
+    background-color: #F6F6F6;
+}
+
+.about-me h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+.about-me p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+}
+
+.cards .card {
+    width: 25%;
+    text-align: center;
+}
+
+.cards .card .card-image {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.card .card-name {
+    margin-bottom: 20px;
+    color: #828282;
+}
+
+.portfolio {
+    background-color: #F6F6F6;
+}
+
+.projects .project {
+    margin-bottom: 60px;
+}
+
+.project-image {
+    margin-bottom: 40px;
+}
+
+.project-description {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.contacts {
+    text-align: center;
+}
+
+.contacts .section-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contacts-discription {
+    margin-bottom: 20px;
+}
+
+.social-links {
+    margin-bottom: 50px;
+}
+
+.end-aiscription {
+    color: #828282;
+}
+
+.contacts-message button {
+    background: transparent;
+    display: block;
+    position: relative;
+    width: 200px;
+    border: none;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.contacts-message button .text {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    background: #000;
+    padding: 13px 28px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50px;
+    z-index: 10;
+}
+
+.contacts-message button::after {
+    position: absolute;
+    border-radius: 50px;
+    top: 15%;
+    left: 15px;
+    right: 15px;
+    content: '';
+    display: block;
+    background: #fff;
+    height: 100%;
+    z-index: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
